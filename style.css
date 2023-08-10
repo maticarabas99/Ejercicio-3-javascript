@@ -1,0 +1,47 @@
+main{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(31, 204, 146);
+}
+.menu-pizzas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.menu-pizzas h1{
+    font-size: 40px;
+}
+#container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+#container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#container p{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+}
+#container{
+    height: 450px;
+    width: 350px;
+    background-color: azure;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
